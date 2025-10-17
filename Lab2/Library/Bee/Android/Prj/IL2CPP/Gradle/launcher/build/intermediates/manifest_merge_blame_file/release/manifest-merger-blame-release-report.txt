@@ -1,0 +1,216 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.DefaultCompany.try3_lab2"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="29"
+9-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="36" />
+10-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-163
+13        android:anyDensity="true"
+13-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:135-160
+14        android:largeScreens="true"
+14-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:78-105
+15        android:normalScreens="true"
+15-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-77
+16        android:smallScreens="true"
+16-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:106-134
+18
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:5-67
+19-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:22-64
+20
+21    <uses-feature android:glEsVersion="0x00030000" />
+21-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:5-54
+21-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:19-51
+22    <uses-feature
+22-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:36
+23        android:name="android.hardware.vulkan.version"
+23-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-55
+24        android:required="false" />
+24-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-33
+25    <uses-feature
+25-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:14:5-16:36
+26        android:name="android.hardware.touchscreen"
+26-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:9-52
+27        android:required="false" />
+27-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:16:9-33
+28    <uses-feature
+28-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:17:5-19:36
+29        android:name="android.hardware.touchscreen.multitouch"
+29-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:18:9-63
+30        android:required="false" />
+30-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:19:9-33
+31    <uses-feature
+31-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:20:5-22:36
+32        android:name="android.hardware.touchscreen.multitouch.distinct"
+32-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:9-72
+33        android:required="false" />
+33-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:9-33
+34
+35    <uses-permission android:name="org.khronos.openxr.permission.OPENXR" />
+35-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:13:3-74
+35-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:13:20-71
+36    <uses-permission android:name="org.khronos.openxr.permission.OPENXR_SYSTEM" />
+36-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:14:3-81
+36-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:14:20-78
+37
+38    <queries>
+38-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:16:3-27:13
+39
+40        <!-- to talk to the broker -->
+41        <provider android:authorities="org.khronos.openxr.runtime_broker;org.khronos.openxr.system_runtime_broker" />
+41-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:18:5-114
+41-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:18:15-111
+42
+43        <!-- so client-side code of runtime/layers can talk to their service sides -->
+44        <intent>
+44-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:21:5-23:14
+45            <action android:name="org.khronos.openxr.OpenXRRuntimeService" />
+45-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:22:7-72
+45-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:22:15-69
+46        </intent>
+47        <intent>
+47-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:24:5-26:14
+48            <action android:name="org.khronos.openxr.OpenXRApiLayerService" />
+48-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:25:7-73
+48-->[:openxr_loader:] C:\Users\Mihai\.gradle\caches\transforms-3\06905e721846062fcde5bcc7699ff6af\transformed\jetified-openxr_loader\AndroidManifest.xml:25:15-70
+49        </intent>
+50    </queries>
+51
+52    <uses-feature
+52-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:7:5-10:31
+53        android:name="android.hardware.vr.headtracking"
+53-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:8:9-56
+54        android:required="true"
+54-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:9:9-32
+55        android:version="1" />
+55-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:10:9-28
+56    <uses-feature
+56-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:11:5-13:35
+57        android:name="oculus.software.eye_tracking"
+57-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:12:9-52
+58        android:required="true" />
+58-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:13:9-32
+59
+60    <uses-permission android:name="com.oculus.permission.EYE_TRACKING" />
+60-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:5-74
+60-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:15:22-71
+61
+62    <application
+62-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-83
+63        android:enableOnBackInvokedCallback="true"
+63-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:25:9-51
+64        android:extractNativeLibs="true"
+64-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-41
+65        android:icon="@mipmap/app_icon"
+65-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-80
+66        android:label="@string/app_name" >
+66-->D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:16-48
+67        <meta-data
+67-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:9-29:33
+68            android:name="unity.splash-mode"
+68-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-45
+69            android:value="0" />
+69-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:29:13-30
+70        <meta-data
+70-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:30:9-32:36
+71            android:name="unity.splash-enable"
+71-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:31:13-47
+72            android:value="True" />
+72-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:32:13-33
+73        <meta-data
+73-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:33:9-35:36
+74            android:name="unity.launch-fullscreen"
+74-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:34:13-51
+75            android:value="True" />
+75-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:35:13-33
+76        <meta-data
+76-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:36:9-38:36
+77            android:name="unity.render-outside-safearea"
+77-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:37:13-57
+78            android:value="True" />
+78-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:38:13-33
+79        <meta-data
+79-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:39:9-41:50
+80            android:name="notch.config"
+80-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:40:13-40
+81            android:value="portrait|landscape" />
+81-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:41:13-47
+82        <meta-data
+82-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:42:9-44:36
+83            android:name="unity.auto-report-fully-drawn"
+83-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:43:13-57
+84            android:value="true" />
+84-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:44:13-33
+85
+86        <activity
+86-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:46:9-69:20
+87            android:name="com.unity3d.player.UnityPlayerActivity"
+87-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:47:13-66
+88            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+88-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:48:13-194
+89            android:exported="true"
+89-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:49:13-36
+90            android:hardwareAccelerated="false"
+90-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:50:13-48
+91            android:launchMode="singleTask"
+91-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:51:13-44
+92            android:resizeableActivity="false"
+92-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:52:13-47
+93            android:screenOrientation="fullUser"
+93-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:53:13-49
+94            android:theme="@style/UnityThemeSelector" >
+94-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:54:13-54
+95            <intent-filter>
+95-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:55:13-61:29
+96                <category android:name="android.intent.category.LAUNCHER" />
+96-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:17-77
+96-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:56:27-74
+97
+98                <action android:name="android.intent.action.MAIN" />
+98-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:17-69
+98-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:58:25-66
+99
+100                <category android:name="com.oculus.intent.category.VR" />
+100-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:17-74
+100-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:60:27-71
+101            </intent-filter>
+102
+103            <meta-data
+103-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:63:13-65:40
+104                android:name="unityplayer.UnityActivity"
+104-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:64:17-57
+105                android:value="true" />
+105-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:65:17-37
+106            <meta-data
+106-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:66:13-68:40
+107                android:name="notch_support"
+107-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:67:17-45
+108                android:value="true" />
+108-->[:unityLibrary] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\merged_manifest\release\AndroidManifest.xml:68:17-37
+109            <meta-data
+109-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:21:13-23:40
+110                android:name="com.oculus.vr.focusaware"
+110-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:22:17-56
+111                android:value="true" />
+111-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:23:17-37
+112        </activity>
+113
+114        <meta-data
+114-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:26:9-28:67
+115            android:name="com.oculus.supportedDevices"
+115-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:27:13-55
+116            android:value="quest|quest2|cambria|eureka|quest3s" />
+116-->[:unityLibrary:xrmanifest.androidlib] D:\Unity\try3_lab2\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\xrmanifest.androidlib\build\intermediates\merged_manifest\release\AndroidManifest.xml:28:13-64
+117    </application>
+118
+119</manifest>
